@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: normal;
+    src: url("TitilliumWeb-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    font-weight: normal;
+    src: url("NotoSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: normal;
+    src: url("OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-weight: normal;
+    src: url("Raleway-Regular.ttf");
+}
+
+.root {
+    -fx-background-color: white;
+}
+
+.text {
+    -fx-font-size: 16px;
+    -fx-fill: black;
+    -fx-font-smoothing-type: lcd;
+}
+
+#text1 {
+    -fx-font-family: "Segoe UI";
+}
+#text2 {
+    -fx-font-family: "Titillium Web";
+}
+#text3 {
+    -fx-font-family: "Noto Sans";
+}
+#text4 {
+    -fx-font-family: "Open Sans";
+}
+#text5 {
+    -fx-font-family: "Raleway";
+}

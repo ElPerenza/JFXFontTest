@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "DIN Next LT Pro";
+    src: url("./DINNextLTPro-Light.otf");
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-content: center;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+p:nth-child(1) {
+    font-family: 'Segoe UI';
+}
+p:nth-child(2) {
+    font-family: "Titillium Web";
+}
+p:nth-child(3) {
+    font-family: "Noto Sans";
+}
+p:nth-child(4) {
+    font-family: "Open Sans";
+}
+p:nth-child(5) {
+    font-family: "Raleway";
+}
